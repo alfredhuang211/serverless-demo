@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "全部问答",
+        "selectedIconPath": "images/exams_select.png",
+        "iconPath": "images/exams_unselect.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的问答",
+        "selectedIconPath": "images/myexam_select.png",
+        "iconPath": "images/myexam_unselect.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人信息",
+        "selectedIconPath": "images/self_select.png",
+        "iconPath": "images/self_unselect.png"
+      }
+    ],
+    "color":"#bfbfbf",
+    "selectedColor":"#707070"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

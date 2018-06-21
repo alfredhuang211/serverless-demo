@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 用户登录 -->
+    <button class="userinfo" open-type="getUserInfo" bindgetuserinfo="login">
+        <image
+            class="userinfo-avatar"
+            src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}"
+            background-size="cover"
+        ></image>
+        <view>
+            <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.nickName}}</text>
+            <text class="userinfo-nickname" wx:else>点击登录</text>
+        </view>
+    </button>
+
+    <!-- 关于 -->
+    <view class="about">
+        <view class="about-text" >
+            <text>关于这个小程序</text>
+        </view>
+    </view>
+
+
+
+</view>
