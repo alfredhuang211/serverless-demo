@@ -14,8 +14,8 @@ from qcloud_cos import UploadFileRequest
 print('Loading function')
 
 appid = 1251762227  #使用帐号appid
-secret_id = u'AKIDutrojKl3CKQZNAr763UXks05898Lmciu'   #使用云api secret id
-secret_key = u'96VJ5tnlllkoqsvvybGtU3a7l5To6Md2'  #使用云api secret key
+secret_id = u'AKIDutrojKl3CKQZNAr763UXks05898Lmxxx'   #使用云api secret id
+secret_key = u'96VJ5tnlllkoqsvvybGtU3a7l5To6Mdxxx'  #使用云api secret key
 region = u'gz' 
 upload_bucket=u"uploadbucket"
 
